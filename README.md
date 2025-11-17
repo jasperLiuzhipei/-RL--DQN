@@ -41,7 +41,7 @@ python -m flappy_bird.scripts.run_single_ep
 ### Implement and Train Your Agent
 
 - Implement your agent in `flappy_bird/agents/*.py` (e.g. `flappy_bird/agents/dqn.py`).
-- Train your agent in `flappy_bird/scripts/train_*.py` (e.g. `flappy_bird/train_dqn.py`) and save necessary checkpoints or training logs in `results/flappy_bird/*/`.
+- Train your agent in `flappy_bird/scripts/train_*.py` (e.g. `flappy_bird/scripts/train_dqn.py`) and save necessary checkpoints or training logs in `results/flappy_bird/*/`.
 
 ### Modify the Environments if Needed
 
