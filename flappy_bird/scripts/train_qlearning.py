@@ -5,7 +5,7 @@ from tqdm import tqdm
 from matplotlib import pyplot as plt
 
 import flappy_bird
-from flappy_bird.qlearning import FlappyBirdAgent
+from flappy_bird.agents.qlearning import FlappyBirdAgent
 
 
 def parse_args():
