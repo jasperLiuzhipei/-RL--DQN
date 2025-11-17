@@ -25,6 +25,8 @@ pip install -r requirements.txt
 python -m flappy_bird_env
 ```
 
+> This may run into troubles on servers like HKU GPU Farm.
+
 ### Run an Episode by a Random Agent (for environment check)
 
 ```
@@ -45,7 +47,7 @@ python -m flappy_bird.scripts.run_single_ep
 
 - Modify or create new environments based on `gym` in `gym/flappy_bird/envs/` to better suit your agent.
 - Register your new environment in `gym/flappy_bird/__init__.py` so that you can use `gym.make` (e.g. `env = gym.make("FlappyBirdEnvWithImageObs", render_mode="human")`)
-- **Important Note: If you are using `gym.make("FlappyBirdEnvWithImageObs")`, you must set `render_mode` to `"rgb_array"` for training and to `"human"` for visualized testing.**
+- <u>**Important Note: If you are using `gym.make("FlappyBirdEnvWithImageObs")`, you must set `render_mode` to `"rgb_array"` for training and to `"human"` for visualized testing.**</u>
 
 ### Running this Project on HKU GPU Farm
 
@@ -53,6 +55,11 @@ python -m flappy_bird.scripts.run_single_ep
 
 ## References
 
-- **Gym** https://github.com/Farama-Foundation/Gymnasium
-- **Flappy_bird_env** https://github.com/robertoschiavone/flappy-bird-env
+- **Gym**
+
+  https://github.com/Farama-Foundation/Gymnasium
+
+- **Flappy_bird_env**
+
+  https://github.com/robertoschiavone/flappy-bird-env
 
