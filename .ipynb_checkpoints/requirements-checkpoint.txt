@@ -1,0 +1,6 @@
+flappy-bird-env
+gymnasium
+matplotlib
+opencv-python
+torch
+tqdm
