@@ -1,4 +1,3 @@
-````markdown
 # Gym Based RL Game Playing
 
 ## Quick Start
